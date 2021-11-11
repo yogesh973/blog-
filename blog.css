@@ -1,0 +1,95 @@
+.heading{
+    width:60%;
+  
+    margin:1%;
+   background-color: white;
+    display:inline-block
+}
+body{
+    background-color: rgb(199, 197, 197);
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.entry{
+    width:60%;
+    overflow: auto;
+    margin:1%;
+    background-color: white;
+    display:inline-block
+}
+
+
+
+.heading h2,p{
+    margin-left: 20px;
+}
+.name h2,p{
+    margin-left: 20px;
+   
+}
+
+.entry h2,p{
+    margin-left: 20px;
+}
+.name{
+    width:33%;
+   padding-bottom: 20px;
+    margin:1%;
+    float:right;
+  position: relative;
+    background-color: white;
+    overflow: visible;
+}
+
+.posts{
+    width:33%;
+    height: 350px;
+    background-color: white;
+    margin:1%;
+    overflow: visible;
+   
+   margin-top: -45px;
+    float:right;
+}
+.tags{
+    background-color: white;
+    width:33%;
+    height: 200px;
+    overflow: hidden;
+    margin:1%; 
+    float:right;
+    margin-top: -160px;
+
+}
+
+.tags  p{
+    border: 1px solid black;
+    margin-right: 3px;
+    padding: 2px;
+}
+
+@media only screen and (max-width: 900px){
+    .heading{
+        width:94%;
+        float: none;
+
+    }
+
+    .entry{
+        width:94%;
+        float: none;
+    }
+    .name{
+        width:94%;
+        float: none;
+        margin-top: 15px;
+    }
+    .posts,.tags{
+        width:94%;
+        float: none;
+        margin-top: 15px;
+    }
+
+  
+}
